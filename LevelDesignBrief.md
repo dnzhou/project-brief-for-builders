@@ -80,7 +80,13 @@ We are **not** looking for: open battle-royale-scale terrain, realistic large-sc
 - Final geometry should use `SpawnArea`-tagged parts for spawn zones and avoid blocking weapon raycasts unintentionally (flag any glass/thin geo that needs the `RayExclude` tag or just inform me).
 - Keep part count and unique meshes reasonable
 
-## 7. Examples ##
+## 7. Lore Building Considerations ##
+
+The direction of the game is that brain rot characters (corny I know) have escaped and you and your big team try to take it down lethally. 
+
+Think about environmental story telling elements like buildings on fire or having the attacking team spawn point have transport vehicles as props parked next to it across all maps.
+
+## 8. Examples ##
 **The following images are screenshots taken from TF2** (Versus Saxton Hale community maps)
 
 ![House interior scaled up](images/20260624033901_1.jpg)

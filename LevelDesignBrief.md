@@ -82,7 +82,7 @@ We are **not** looking for: open battle-royale-scale terrain, realistic large-sc
 
 ## 7. Lore Building Considerations ##
 
-The direction of the game is that brain rot characters (corny I know) have escaped and you and your big team try to take it down lethally. 
+The direction of the game is that brain rot characters (corny I know) have come into physical existence and you are trying to take them down. 
 
 Think about environmental story telling elements like buildings on fire or having the attacking team spawn point have transport vehicles as props parked next to it across all maps.
 

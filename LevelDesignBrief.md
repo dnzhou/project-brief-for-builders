@@ -16,7 +16,7 @@ Movement is a **custom Quake/Source-style system** — momentum-based movement i
 Combat is a mix of **hitscan, projectile, and melee** weapons, all server-validated with lag compensation — meaning fights can happen at range *and* up close regardless of player latency.
 
 
-My vision for map design comes greatly inspired by the community gamemode in **Valve's *Team Fortress 2* now officially called Verus Saxton Hale (VSH)**. Much of the gameplay loop is similar to this and I will go into more detail on this later on.
+My vision for map design comes greatly inspired by the community gamemode in **Valve's *Team Fortress 2* now officially called Versus Saxton Hale (VSH)**. Much of the gameplay loop is similar to this and I will go into more detail on this later on.
 ## 2. The potential core design issues that need to solve
 
 Every map should be made with a balancing philosophy: **While the boss has greater mobility i.e. speed and movement, they are limited in their range to attack other players. Conversely, attackers have ranged firepower but have low health and slower speed and often get eliminated in a single attack from the boss.**
@@ -31,7 +31,7 @@ A good map:
 ## 3. Structural requirements (the must-haves)
 
 - **Scale**: needs to comfortably fit a Boss-sized hitbox (some bosses are much larger than a standard Roblox character) moving through doorways, halls, and tight spaces without clipping or getting stuck. Always test geo at the largest boss's scale, not just default R15.
-- **Verticality**: meaningful elevation tiers (ground floor, mid platforms, rooftops/catwalks) connected by ramps, stairs, truss/ladaders, jump pads, or strafe-jump gaps — not just elevators. Again your choice of adding environment triggers like jump pads is all based off if the map you are making requires it or not.
+- **Verticality**: meaningful elevation tiers (ground floor, mid platforms, rooftops/catwalks) connected by ramps, stairs, truss/ladders, jump pads, or strafe-jump gaps — not just elevators. Again your choice of adding environment triggers like jump pads is all based off if the map you are making requires it or not.
 - **Environment Interactions**: Areas or spots where interacting or touching them causes something to happen. **Note**: Don't worry about scripting the actual behaviour as I will handle it.
     - Hurt boxes: 
         - under map kill boxes (I have disabled Roblox's core killbox in favour of a custom one) 
@@ -67,7 +67,7 @@ Pick from or riff on these — variety across the map rotation matters more than
 
 1. **Industrial Facility** — warehouse/factory interior. Crates and machinery as cover, catwalks above, forklift-scale doorways the Boss can still fit through. (Evolve "Wraith Trap"-style verticality.)
 2. **Urban Block** — a few connected buildings, alleys, and a rooftop layer. CS-style chokepoint streets connecting 2-3 open courtyards. Attackers can break vertical sightlines via rooftop hops.
-3. **Overgrown Ruins / Temple** — outdoor arena with broken walls, pillars, and elevation changes via rubble ramps. Good testbed for bhop ramps and pillar-juking the Boss.
+3. **Overgrown Ruins / Temple** — outdoor arena with broken walls, pillars, and elevation changes via rubble ramps. Good for parkour/obby elements to reach higher ground and pillar-juking the Boss.
 4. **Underground Complex** — tighter corridors and rooms (sewer/bunker/mine), high tension, short sightlines, good for melee-heavy or close-range bosses; needs extra care that the Boss isn't unstoppable in tight halls.
 5. **Open Arena / Colosseum** — a circular or symmetric central pit ringed by elevated platforms — closest to a "pure" Quake arena map, good for a rotation map that's all about movement skill.
 6. **Sky** — a map where the ground is made from clouds. There can be a large central cloud with surrounding clouds that are much smaller. Falling off the cloud will result in an instant death. Gives a unique and challenging experience where at any time a mistep can result in falling off the map. 
